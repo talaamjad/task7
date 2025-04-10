@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 200vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.nav{
+    background-color: darkcyan;
+    position: sticky;
+    top: 0;
+}
+.nav .container{
+    display: flex;
+}
+.nav .nav-logo{
+    width: 25%;
+    margin: 5px;
+}
+.nav .nav-content{
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: end;
+    align-items: center;
+}
+.nav-content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(240, 222, 23);
+    font-weight: bold;
+}
+header{
+    height: 97vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(240, 222, 23);
+    border-top: 2px solid rgb(240, 222, 23);
+}
